@@ -6,14 +6,15 @@ def my_collect(collection)
  i=i+1 
    
  end
+ collection.collect do |language|
+  language.upcase
+end
 
 collection.collect do |name|
   name.split(" ").first 
 end
  
-collection.collect do |language|
-  language.upcase
-end
+
 
 end
 
