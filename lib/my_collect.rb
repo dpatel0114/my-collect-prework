@@ -10,7 +10,7 @@ def my_collect(collection)
   language.upcase
 end
 collection.collect do |name|
-  return name.split(" ").first 
+  name.split(" ").first 
 end
 end
 
