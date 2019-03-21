@@ -7,7 +7,7 @@ def my_collect(collection)
    
  end
  collection.collect do |language|
-  language.upcase
+  puts language.upcase
 end
 collection.collect do |name|
   name.split(" ").first 
