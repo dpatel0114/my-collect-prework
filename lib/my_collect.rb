@@ -9,7 +9,8 @@ def my_collect(collection)
 collection.collect do |name|
   name.split(" ").first 
 end
-
+collection.collect do |language|
+  language.upcase
 
 end
 
