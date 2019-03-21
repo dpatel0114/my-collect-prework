@@ -11,6 +11,7 @@ collection.collect do |name|
 end
 collection.collect do |language|
   language.upcase
+end
 
 end
 
